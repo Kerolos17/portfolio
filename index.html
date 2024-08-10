@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="kero.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/kero.png" type="image/x-icon">
     <title>Kerolos' Portfolio</title>
 </head>
 
@@ -20,12 +20,15 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
+        <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
     <section class="main">
         <div>
             <img src="./images/kero.png" alt="kero's poto" class="main-img">
         </div>
-        <diV>
+        <diV class="main-content">
             <h2>Hello, I'm Kerolos
                 <br>
                 <span>Frontend Developer</span>
@@ -33,16 +36,139 @@
             <h3>Creative Front-End Developer,<br> bringing your designs to life!</h3>
             <a href="#projects" class="main-btn">My Projects</a>
             <div class="social-icon">
-                <a href="http://www.linkedin.com/in/kerolos-morkos-450755276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i
-                    class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Kerolos17"  rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-                <a href="mailto:kerolosmorkos1124@gmail.com"  rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://www.facebook.com/Kero.M.Anwar?mibextid=ZbWKwL"  rel="noopener noreferrer" target="_blank"><i
-                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="http://www.linkedin.com/in/kerolos-morkos-450755276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Kerolos17" rel="noopener noreferrer" target="_blank"><i
+                        class="fa-brands fa-square-github"></i></a>
+                <a href="mailto:kerolosmorkos1124@gmail.com" rel="noopener noreferrer" target="_blank"><i
+                        class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.facebook.com/Kero.M.Anwar?mibextid=ZbWKwL" rel="noopener noreferrer"
+                    target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
 
             </div>
         </diV>
     </section>
+    <section class="cards" id='services'>
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Responsive Web Design</h3>
+                    <p>Creating websites that work seamlessly on all devices, from smartphones to
+                        desktops.<br>Technologies: HTML, CSS, JavaScript, Media Queries.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-mobile-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Website Performance Optimization</h3>
+                    <p>Enhancing page load speed and user experience through code optimization and file compression.
+                        <br>Technologies: JavaScript, Lazy Loading, Image Compression, Minification, Caching.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Interactive Web Applications</h3>
+                    <p>Developing dynamic, interactive web apps using frameworks like React.js for an advanced user
+                        experience.<br>Technologies:React.js, AJAX, API Integration</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="title">projects</h2>
+        <div class="content">
+            <div class="card-project">
+                <div class="project-img">
+                    <img src="./images/project-1.png" alt="project1">
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>E-Commerce Store</span>
+                        <a class="project-link" href="https://e-commerce-nu-cyan.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">view project</a>
+                    </strong>
+                    <p class="project-category">using React Js , Redux , CSS , JSX</p>
+                </div>
+            </div>
+            <div class="card-project">
+                <div class="project-img">
+                    <img src="./images/project-2.png" alt="project1">
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>GYM Website</span>
+                        <a class="project-link" href="https://kerolos17.github.io/Templet-1/" target="_blank"
+                            rel="noopener noreferrer">view project</a>
+
+                    </strong>
+                    <p class="project-category">using HTML , CSS , JavaScript , Bootstrap5</p>
+                </div>
+            </div>
+            <div class="card-project">
+                <div class="project-img">
+                    <img src="./images/project-3.png" alt="project1">
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Landing Page Templet</span>
+                        <a class="project-link" href="https://kerolos17.github.io/GYM/" target="_blank"
+                            rel="noopener noreferrer">view project</a>
+                    </strong>
+                    <p class="project-category">using React Js , Redux , CSS , JSX</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact" id='contact'>
+        <h2 class="title">Contact</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <a href="tel:+201024083070">01024083070</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <a href="mailto:kerolosmorkos1124@gmail.com"> kerolosmorkos1124@gmail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © <span>Kerolos Morkos</span></p>
+        <div class="social-icon">
+            <a href="http://www.linkedin.com/in/kerolos-morkos-450755276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Kerolos17" rel="noopener noreferrer" target="_blank"><i
+                    class="fa-brands fa-square-github"></i></a>
+            <a href="mailto:kerolosmorkos1124@gmail.com" rel="noopener noreferrer" target="_blank"><i
+                    class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.facebook.com/Kero.M.Anwar?mibextid=ZbWKwL" rel="noopener noreferrer"
+                target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
